@@ -9,6 +9,7 @@ const adminCred = {
     adminId: '123456'
 }
 
+
 exports.adminLogin = asyncHandler(async (req,res)=>{
     const {email, password} = req.body
     const adminId = adminCred.adminId
